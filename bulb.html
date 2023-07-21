@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="bulbon()">turn on light</button>
+    <img src="images/bulbonn.webp" height="600px" width="600px" alt="" id="on">
+
+    <button onclick="bulboff()">turn off light</button>
+    
+
+    <script>
+        function bulbon()
+        {
+            document.getElementById("on").src="images/bulbonn.webp";
+        }
+
+        function bulboff()
+        {
+            document.getElementById("on").src="images/bulboff.jpg";
+        }
+
+    </script>
+</body>
+</html>
